@@ -10,10 +10,10 @@ a way to perform http requests in parallel with php
         ...
     ];
 
-eg. sync search:
+##### eg. sync search:
     $priceSearch = new PriceSearch('bmw', '320', 5, $this->params, $async=false);
 
-eg. async search:
+##### eg. async search:
     $priceSearch = new PriceSearch('bmw', '320', 5, $this->params, $async=true);
 
     
